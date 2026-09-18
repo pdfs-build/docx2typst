@@ -1,0 +1,20 @@
+[package]
+name = "docx2typst-wml"
+description = "WordprocessingML parser that builds the docx2typst document model"
+edition.workspace = true
+rust-version.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+readme.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+docx2typst-model = { path = "../docx2typst-model" }
+docx2typst-opc = { path = "../docx2typst-opc" }
+indexmap.workspace = true
+roxmltree.workspace = true
+serde.workspace = true
+thiserror.workspace = true

@@ -1,0 +1,24 @@
+[package]
+name = "docx2typst"
+description = "Convert Word .docx files to Typst markup: library API for conversion, validation, and inspection"
+edition.workspace = true
+rust-version.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+readme.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+docx2typst-emit = { path = "../docx2typst-emit" }
+docx2typst-model = { path = "../docx2typst-model" }
+docx2typst-opc = { path = "../docx2typst-opc" }
+docx2typst-validate = { path = "../docx2typst-validate" }
+docx2typst-wml = { path = "../docx2typst-wml" }
+serde_json.workspace = true
+
+[dev-dependencies]
+base64.workspace = true
+zip.workspace = true

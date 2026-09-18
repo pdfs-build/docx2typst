@@ -1,0 +1,34 @@
+{
+  "name": "@buildpdfs/docx2typst",
+  "version": "0.1.1",
+  "main": "api.js",
+  "types": "api.d.ts",
+  "napi": {
+    "binaryName": "docx2typst",
+    "targets": [
+      "aarch64-apple-darwin",
+      "x86_64-apple-darwin",
+      "x86_64-unknown-linux-gnu",
+      "aarch64-unknown-linux-gnu"
+    ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "scripts": {
+    "build": "napi build --platform --cwd .",
+    "dev": "napi build --platform --cwd . --js false",
+    "test": "npm run build && node --test test/*.test.js",
+    "artifacts": "napi artifacts"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "^3.2.0"
+  },
+  "optionalDependencies": {
+    "@buildpdfs/docx2typst-darwin-arm64": "0.1.1",
+    "@buildpdfs/docx2typst-darwin-x64": "0.1.1",
+    "@buildpdfs/docx2typst-linux-x64-gnu": "0.1.1",
+    "@buildpdfs/docx2typst-linux-arm64-gnu": "0.1.1"
+  }
+}

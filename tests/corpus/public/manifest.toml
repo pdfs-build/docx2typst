@@ -1,0 +1,351 @@
+version = 1
+
+[[fixture]]
+id = "powertools-headings"
+path = "fixtures/powertools-headings.docx"
+baseline = "compile"
+tags = ["headings", "styles"]
+notes = "Core heading and paragraph-style coverage."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/Headings.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/Headings.docx"
+
+[[fixture]]
+id = "powertools-hyperlink"
+path = "fixtures/powertools-hyperlink.docx"
+baseline = "compile"
+tags = ["hyperlinks"]
+notes = "Hyperlink parsing and emission coverage."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/Hyperlink.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/Hyperlink.docx"
+
+[[fixture]]
+id = "powertools-image"
+path = "fixtures/powertools-image.docx"
+baseline = "compile"
+tags = ["images", "drawingml"]
+notes = "Inline image coverage."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/Image.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/Image.docx"
+
+[[fixture]]
+id = "powertools-table"
+path = "fixtures/powertools-table.docx"
+baseline = "compile"
+tags = ["tables"]
+notes = "Basic table parsing, layout, and styling coverage."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/Table.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/Table.docx"
+
+[[fixture]]
+id = "powertools-hierarchical-numbered-list"
+path = "fixtures/powertools-hierarchical-numbered-list.docx"
+baseline = "compile"
+tags = ["lists", "numbering", "nested-lists"]
+notes = "Hierarchical numbered list coverage."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/HierarchicalNumberedList.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/HierarchicalNumberedList.docx"
+
+[[fixture]]
+id = "powertools-section"
+path = "fixtures/powertools-section.docx"
+baseline = "compile"
+tags = ["sections", "page-setup"]
+notes = "Section and page setup coverage."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/Section.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/Section.docx"
+
+[[fixture]]
+id = "powertools-footnote"
+path = "fixtures/powertools-footnote.docx"
+baseline = "compile"
+tags = ["notes", "footnotes"]
+notes = "Footnote coverage."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/FootNote.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/FootNote.docx"
+
+[[fixture]]
+id = "powertools-endnote"
+path = "fixtures/powertools-endnote.docx"
+baseline = "compile"
+tags = ["notes", "endnotes"]
+notes = "Endnote coverage."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/EndNote.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/EndNote.docx"
+
+[[fixture]]
+id = "powertools-fields"
+path = "fixtures/powertools-fields.docx"
+baseline = "compile"
+tags = ["fields", "page-numbers"]
+notes = "Field and page-number style coverage."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/Fields.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/Fields.docx"
+
+[[fixture]]
+id = "powertools-theme"
+path = "fixtures/powertools-theme.docx"
+baseline = "compile"
+tags = ["theme", "colors", "styles"]
+notes = "Theme color and style inheritance coverage."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/Theme.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/Theme.docx"
+
+[[fixture]]
+id = "powertools-fonts"
+path = "fixtures/powertools-fonts.docx"
+baseline = "compile"
+tags = ["fonts", "styles"]
+notes = "Font declarations and style coverage."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/Fonts.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/Fonts.docx"
+
+[[fixture]]
+id = "powertools-content-controls"
+path = "fixtures/powertools-content-controls.docx"
+baseline = "compile"
+tags = ["content-controls", "sdt"]
+notes = "Structured document tag coverage."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/ContentControls.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/ContentControls.docx"
+
+[[fixture]]
+id = "powertools-revision-tracking"
+path = "fixtures/powertools-revision-tracking.docx"
+baseline = "exploratory"
+tags = ["tracked-changes", "revisions"]
+notes = "Coverage for a known parser gap; kept exploratory until revision semantics are implemented."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/RevisionTracking.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/RevisionTracking.docx"
+
+[[fixture]]
+id = "powertools-chart"
+path = "fixtures/powertools-chart.docx"
+baseline = "fallback"
+tags = ["charts", "fallback"]
+notes = "Should compile with explicit fallback asset handling."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/Chart.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/Chart.docx"
+
+[[fixture]]
+id = "powertools-equation"
+path = "fixtures/powertools-equation.docx"
+baseline = "fallback"
+tags = ["equations", "fallback"]
+notes = "Should compile with explicit fallback asset handling."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/Equation.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/Equation.docx"
+
+[[fixture]]
+id = "powertools-smartart"
+path = "fixtures/powertools-smartart.docx"
+baseline = "fallback"
+tags = ["smartart", "fallback"]
+notes = "Should compile with explicit fallback asset handling."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/SmartArt.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/SmartArt.docx"
+
+[[fixture]]
+id = "powertools-textbox"
+path = "fixtures/powertools-textbox.docx"
+baseline = "fallback"
+tags = ["textbox", "positioned-objects", "fallback"]
+notes = "Should compile with explicit fallback asset handling."
+
+[fixture.source]
+repo = "OfficeDev/Open-Xml-PowerTools"
+commit = "5881422a881f6ccefce2b9801b5dc6a753670d6e"
+license = "MIT"
+upstream_path = "NewDocxDocuments/TextBox.docx"
+url = "https://raw.githubusercontent.com/OfficeDev/Open-Xml-PowerTools/5881422a881f6ccefce2b9801b5dc6a753670d6e/NewDocxDocuments/TextBox.docx"
+
+[[fixture]]
+id = "python-docx-header-footer"
+path = "fixtures/python-docx-header-footer.docx"
+baseline = "compile"
+tags = ["headers", "footers"]
+notes = "Header/footer content from python-docx feature tests."
+
+[fixture.source]
+repo = "python-openxml/python-docx"
+commit = "e45454602b53e8e572b179ccf1c91093ec9f4ed7"
+license = "MIT"
+upstream_path = "features/steps/test_files/hdr-header-footer.docx"
+url = "https://raw.githubusercontent.com/python-openxml/python-docx/e45454602b53e8e572b179ccf1c91093ec9f4ed7/features/steps/test_files/hdr-header-footer.docx"
+
+[[fixture]]
+id = "python-docx-odd-even-headers"
+path = "fixtures/python-docx-odd-even-headers.docx"
+baseline = "compile"
+tags = ["headers", "footers", "odd-even"]
+notes = "Odd/even header coverage."
+
+[fixture.source]
+repo = "python-openxml/python-docx"
+commit = "e45454602b53e8e572b179ccf1c91093ec9f4ed7"
+license = "MIT"
+upstream_path = "features/steps/test_files/doc-odd-even-hdrs.docx"
+url = "https://raw.githubusercontent.com/python-openxml/python-docx/e45454602b53e8e572b179ccf1c91093ec9f4ed7/features/steps/test_files/doc-odd-even-hdrs.docx"
+
+[[fixture]]
+id = "python-docx-run-char-style"
+path = "fixtures/python-docx-run-char-style.docx"
+baseline = "compile"
+tags = ["character-styles", "runs"]
+notes = "Character style and run inheritance coverage."
+
+[fixture.source]
+repo = "python-openxml/python-docx"
+commit = "e45454602b53e8e572b179ccf1c91093ec9f4ed7"
+license = "MIT"
+upstream_path = "features/steps/test_files/run-char-style.docx"
+url = "https://raw.githubusercontent.com/python-openxml/python-docx/e45454602b53e8e572b179ccf1c91093ec9f4ed7/features/steps/test_files/run-char-style.docx"
+
+[[fixture]]
+id = "python-docx-table-style"
+path = "fixtures/python-docx-table-style.docx"
+baseline = "compile"
+tags = ["tables", "table-styles"]
+notes = "Applied table-style coverage from python-docx."
+
+[fixture.source]
+repo = "python-openxml/python-docx"
+commit = "e45454602b53e8e572b179ccf1c91093ec9f4ed7"
+license = "MIT"
+upstream_path = "features/steps/test_files/tbl-having-applied-style.docx"
+url = "https://raw.githubusercontent.com/python-openxml/python-docx/e45454602b53e8e572b179ccf1c91093ec9f4ed7/features/steps/test_files/tbl-having-applied-style.docx"
+
+[[fixture]]
+id = "docxjs-header-footer"
+path = "fixtures/docxjs-header-footer.docx"
+baseline = "compile"
+tags = ["headers", "footers", "rendering"]
+notes = "Header/footer render fixture from docxjs."
+
+[fixture.source]
+repo = "VolodymyrBaydalka/docxjs"
+commit = "5ea4124c4c0f83d1fc3a63926b7f02e4bc1a172c"
+license = "Apache-2.0"
+upstream_path = "tests/render-test/header-footer/document.docx"
+url = "https://raw.githubusercontent.com/VolodymyrBaydalka/docxjs/5ea4124c4c0f83d1fc3a63926b7f02e4bc1a172c/tests/render-test/header-footer/document.docx"
+
+[[fixture]]
+id = "docxjs-page-layout"
+path = "fixtures/docxjs-page-layout.docx"
+baseline = "compile"
+tags = ["page-layout", "page-setup"]
+notes = "Page layout fixture from docxjs."
+
+[fixture.source]
+repo = "VolodymyrBaydalka/docxjs"
+commit = "5ea4124c4c0f83d1fc3a63926b7f02e4bc1a172c"
+license = "Apache-2.0"
+upstream_path = "tests/render-test/page-layout/document.docx"
+url = "https://raw.githubusercontent.com/VolodymyrBaydalka/docxjs/5ea4124c4c0f83d1fc3a63926b7f02e4bc1a172c/tests/render-test/page-layout/document.docx"
+
+[[fixture]]
+id = "docxjs-table-spans"
+path = "fixtures/docxjs-table-spans.docx"
+baseline = "compile"
+tags = ["tables", "spans", "merges"]
+notes = "Merged-cell table fixture from docxjs."
+
+[fixture.source]
+repo = "VolodymyrBaydalka/docxjs"
+commit = "5ea4124c4c0f83d1fc3a63926b7f02e4bc1a172c"
+license = "Apache-2.0"
+upstream_path = "tests/render-test/table-spans/document.docx"
+url = "https://raw.githubusercontent.com/VolodymyrBaydalka/docxjs/5ea4124c4c0f83d1fc3a63926b7f02e4bc1a172c/tests/render-test/table-spans/document.docx"
+
+[[fixture]]
+id = "docxjs-line-spacing"
+path = "fixtures/docxjs-line-spacing.docx"
+baseline = "compile"
+tags = ["paragraph-spacing", "line-spacing"]
+notes = "Line spacing fixture from docxjs."
+
+[fixture.source]
+repo = "VolodymyrBaydalka/docxjs"
+commit = "5ea4124c4c0f83d1fc3a63926b7f02e4bc1a172c"
+license = "Apache-2.0"
+upstream_path = "tests/render-test/line-spacing/document.docx"
+url = "https://raw.githubusercontent.com/VolodymyrBaydalka/docxjs/5ea4124c4c0f83d1fc3a63926b7f02e4bc1a172c/tests/render-test/line-spacing/document.docx"

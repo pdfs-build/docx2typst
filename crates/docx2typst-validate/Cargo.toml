@@ -1,0 +1,23 @@
+[package]
+name = "docx2typst-validate"
+description = "Syntax and compile validation for docx2typst output, with optional reference-PDF comparison"
+edition.workspace = true
+rust-version.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+readme.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
+docx2typst-emit = { path = "../docx2typst-emit" }
+docx2typst-model = { path = "../docx2typst-model" }
+indexmap.workspace = true
+lopdf.workspace = true
+pdf-extract.workspace = true
+serde.workspace = true
+typst.workspace = true
+typst-as-lib.workspace = true
+typst-pdf.workspace = true
+typst-syntax.workspace = true

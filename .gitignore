@@ -1,0 +1,15 @@
+/target
+/.DS_Store
+/node_modules
+/*.log
+/npm-debug.log*
+/package-lock.json
+/crates/docx2typst-node/index.node
+/crates/docx2typst-node/*.node
+/crates/docx2typst-node/*.tgz
+/crates/docx2typst-node/node_modules
+/crates/docx2typst-node/package-lock.json
+/.artifacts
+/tests/corpus/*
+!/tests/corpus/public/
+!/tests/corpus/public/**

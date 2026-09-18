@@ -1,0 +1,17 @@
+[package]
+name = "docx2typst-emit"
+description = "Typst source emitter for the docx2typst document model"
+edition.workspace = true
+rust-version.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+readme.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+docx2typst-model = { path = "../docx2typst-model" }
+indexmap.workspace = true
+serde_json.workspace = true

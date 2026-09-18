@@ -1,0 +1,17 @@
+[package]
+name = "docx2typst-cli"
+description = "Command-line tool to convert Word .docx files to Typst source"
+edition.workspace = true
+rust-version.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+readme.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+docx2typst = { path = "../docx2typst" }
+serde_json.workspace = true

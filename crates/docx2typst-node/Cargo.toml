@@ -1,0 +1,24 @@
+[package]
+name = "docx2typst-node"
+description = "Node.js native bindings (napi-rs) for docx2typst"
+edition.workspace = true
+rust-version.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+readme.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+docx2typst = { path = "../docx2typst" }
+docx2typst-emit = { path = "../docx2typst-emit" }
+napi.workspace = true
+napi-derive.workspace = true
+serde_json.workspace = true
+
+[build-dependencies]
+napi-build = "2.1.5"
